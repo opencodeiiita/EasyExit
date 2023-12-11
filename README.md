@@ -11,8 +11,7 @@ EasyExit revolutionizes the entire experience by seamlessly simplifying the comp
 * Nodejs (v16.18.0)
 * ExpressJS
 * MongoDB
-* Google OAuth 2.0
-* reCAPTCHA v3
+* React.JS
   
 
 ## Dependencies
@@ -42,11 +41,9 @@ You need npm/yarn installed in your local machine in order to run this app.
 - [Set your commit email address in Git.](https://help.github.com/articles/setting-your-commit-email-address-in-git)
 - [Setup Nodejs](https://nodejs.org/en/blog/release/v16.18.1/)
 - [Docs for passport-local](https://www.passportjs.org/packages/passport-local/)
-- [Docs for passport-google-oauth20](http://www.passportjs.org/packages/passport-google-oauth20/)
 - [Docs for passport-jwt](http://www.passportjs.org/packages/passport-jwt/)
-- [Docs for reCaptcha verification](https://developers.google.com/recaptcha/docs/verify)
 
-## Project Structure
+## Project Structure - Backend
 
 ```
 /   
@@ -70,8 +67,8 @@ You need npm/yarn installed in your local machine in order to run this app.
             |-- form.model.js                #Contains form model
         |
         |-- routes/  
-            |-- user.routes.js                #Contains all user routes
-            |-- form.routes.js                #Contains all form routes
+            |-- user.routes.js               #Contains all user routes
+            |-- form.routes.js               #Contains all form routes
         |-- public/                          #Contains all the static files
 |
 |-- app.js
@@ -92,7 +89,7 @@ Please help us follow the best practice to make it easy for the reviewer as well
 
 - Single commit per pull request and name the commit as something meaningful, example: Adding <-your-name-> in students/mentors section.
 
-- Reference the issue numbers in the commit message if it resolves an open issue. Follow the [PR Template](https://github.com/opencodeiiita/ArtistryHub-Backend/blob/main/.github/pull_request_template.md) Issue: < ISSUE NUMBER >
+- Reference the issue numbers in the commit message if it resolves an open issue. Follow the [PR Template](https://github.com/Oshankiii12/EasyExit/blob/main/.github/pull_request_template.md) Issue: < ISSUE NUMBER >
 
 - Provide the link to live gh-pages from your forked repository or relevant screenshot for easier review.
 
