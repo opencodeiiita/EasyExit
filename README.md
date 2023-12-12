@@ -82,7 +82,7 @@ Comment on the issue. In case of no activity on the issue even after 2 days, the
 ## Communication 
 Whether you are working on a new feature or facing a doubt please feel free to ask us on our [discord](https://discord.gg/D9999YTkS8) channel. We will be happy to help you out.
 
-## Guidlines 
+## Guidelines 
 Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.
 
 - People before code: If any of the following rules are violated, the pull-requests must not be rejected. This is to create an easy and joyful onboarding process for new programmers and first-time contributors.
