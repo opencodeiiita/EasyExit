@@ -12,8 +12,11 @@ EasyExit revolutionizes the entire experience by seamlessly simplifying the comp
 * ExpressJS
 * MongoDB
 * React.JS
-  
 
+## Design Template
+[Open Figma File ](https://www.figma.com/file/40sZkuDVFl2WAeVIOLhi8T/EasyExit-UI-Design?type=design&node-id=0%3A1&mode=design&t=mybCFAT2OKooqYUz-1)
+
+  
 ## Dependencies
 You need npm/yarn installed in your local machine in order to run this app.
 
