@@ -1,6 +1,6 @@
 
 # EasyExit (Girls-only- Repository)
-We welcome all the female contibutors!!! EasyExit is a full stack web development project which aims to simplify the process of issuing, approval and verification of GatePass for college students.
+We welcome all the **female contibutors**!!! EasyExit is a full stack web development project which aims to simplify the process of issuing, approval and verification of GatePass for college students.
 
 ## What problem EasyExit solves?
 Experience campus convenience in style with EasyExit—where swift issue approval and gatepass verification meet effortlessly! 
