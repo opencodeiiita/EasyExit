@@ -92,7 +92,7 @@ Please help us follow the best practice to make it easy for the reviewer as well
 
 - Single commit per pull request and name the commit as something meaningful, example: Adding <-your-name-> in students/mentors section.
 
-- Reference the issue numbers in the commit message if it resolves an open issue. Follow the [PR Template](https://github.com/Oshankiii12/EasyExit/blob/main/.github/pull_request_template.md) Issue: < ISSUE NUMBER >
+- Reference the issue numbers in the commit message if it resolves an open issue. Follow the [PR Template](https://github.com/Oshankiii12/EasyExit/blob/main/.github/pull_request_template.md) Issue: #<ISSUE NUMBER>
 
 - Provide the link to live gh-pages from your forked repository or relevant screenshot for easier review.
 
