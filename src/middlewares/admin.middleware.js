@@ -7,8 +7,8 @@ import {
 } from '../utils/responseCodes.js';
 import User from '../models/user.model.js';
 
-const guardMiddleware = async (req, res, next) => {
+const adminMiddleware = async (req, res, next) => {
     
 };
 
-export default guardMiddleware;
+export default adminMiddleware;
