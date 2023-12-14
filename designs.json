@@ -1,11 +1,12 @@
 [
   {
-    github:"Your github username",
-    figma:"Figma link"
+    github: "username"
+ figma:"link"
   },
-  {
- github: "shrutikarathi6"
- figma: "https://www.figma.com/file/Jm0fJRH0vV5ZvkmYiRFGf2/Untitled?type=design&node-id=0-1&mode=design&t=SHlGqK8aStc38WeR-0"
-  }
-  ]
+{
+ github: "apricity24"
+ figma: "https://www.figma.com/file/fMnr6xWjoYdZa4ImUfsR8y/Untitled?type=design&node-id=0%3A1&mode=design&t=SbDgIoaFKizGLyjp-1"
+}
+]
+
 
