@@ -1,4 +1,4 @@
-// Profile.js
+// Profile.js code as follows
 import React from 'react';
 import './Profile.css'; 
 

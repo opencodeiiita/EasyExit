@@ -1,4 +1,4 @@
-// App.js
+// App.js code as follows
 import React from 'react';
 import profile from './profile';
 
