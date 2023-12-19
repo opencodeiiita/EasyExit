@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  padding-left: 20px;
+}
+
+#companyName {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+
+}
+#companyName2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:  rgb(165, 68, 230);
+}
+
+
+#companyDescription {
+  display: inline-block;
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 534px;
+  height: 156px;
+  font-size: 26px;
+}
+
+
+#abs {
+    font-family: 'Inter', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   margin-top: 50px;
+   margin-left: 20px;
+   display: flex;
+
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 0px;
+  margin-left: 35px ;
+}
+
+.button {
+  padding: 12px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#loginButton {
+  background-color: rgb(165, 68, 230);
+  margin-left: 32px;
+  color: white;
+}
+
+#signupButton {
+  border: solid rgb(165, 68, 230) 3px;
+  background-color: white;
+ color: rgb(165, 68, 230);
+
+}
+.exit-pic{
+  width: 630px;
+  height: 500px;
+}
+.content{
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

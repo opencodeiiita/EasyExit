@@ -1,0 +1,99 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px; /* Reduced margin-top */
+    background: #fff;
+    padding-bottom: 20px; /* Reduced padding-bottom */
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px; /* Reduced gap */
+    width: 100%;
+    margin-top: 20px; /* Reduced margin-top */
+  }
+  
+  .text {
+    color: #3c009d;
+    font-size: 36px; /* Reduced font size */
+    font-weight: 700;
+  }
+  
+  .underline {
+    width: 41px; /* Reduced width */
+    height: 5px; /* Reduced height */
+    background: #3c009d;
+    border-radius: 7px; /* Reduced border-radius */
+  }
+  
+  .inputs {
+    margin-top: 40px; /* Reduced margin-top */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Reduced gap */
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px; /* Reduced width */
+    height: 60px; /* Reduced height */
+    background: #eaeaea;
+    border-radius: 5px; /* Reduced border-radius */
+  }
+  
+  .input img {
+    margin: 0px 20px; /* Reduced margin */
+  }
+  
+  .input input {
+    height: 40px; /* Reduced height */
+    width: 300px; /* Reduced width */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px; /* Reduced font size */
+  }
+  
+  .forgot-password {
+    padding-left: 42px; /* Reduced padding-left */
+    margin-top: 18px; /* Reduced margin-top */
+    color: #797979;
+    font-size: 16px; /* Reduced font size */
+  }
+  
+  .forgot-password span {
+    color: #4c00b4;
+    cursor: pointer;
+  }
+  
+  .submit-container {
+    display: flex;
+    gap: 20px; /* Reduced gap */
+    margin: 40px auto; /* Reduced margin */
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px; /* Reduced width */
+    height: 49px; /* Reduced height */
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 40px; /* Adjusted border-radius */
+    font-size: 16px; /* Reduced font size */
+    font-weight: 700;
+    cursor: pointer;
+  }
+.gray{
+    background-color: #eaeaea;
+    color: #676767;
+}  
