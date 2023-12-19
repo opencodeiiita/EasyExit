@@ -131,7 +131,10 @@
   font-size: 22px;
   font-weight: 500;
 }
-
+.name-text {
+  color: #8968FF; 
+  font-size: 24px;
+}
 .text-data .email {
     padding-top: 8px;
   font-size: 15px;

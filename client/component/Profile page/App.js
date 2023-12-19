@@ -1,8 +1,8 @@
-// App.js code as follows
+// App.js
 import React from 'react';
 import profile from './profile';
 
-const App = () => {
+function App  ()  {
   return (
     <div>
       <Profile />
@@ -10,7 +10,9 @@ const App = () => {
   );
 };
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<App/>)
+
 
 // terminal Commands
 // npm init -y   // if you haven't initialized your project with a package.json file

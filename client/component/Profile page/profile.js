@@ -1,4 +1,4 @@
-// Profile.js code as follows
+// Profile.js
 import React from 'react';
 import './Profile.css'; 
 
@@ -18,9 +18,9 @@ const Profile = () => {
         </div>
 
         <div className="text-data">
-          <span className="name">Shrutika</span>
-          <span className="email">Shrutikarathi6</span>
-          <span className="prof">Student</span>
+          <span className="name"><span class="name-text">Name:</span>Shrutika</span>
+          <span className="email"><span class="name-text">Name:</span>Shrutikarathi6</span>
+          <span className="prof"><span class="name-text">Name:</span>Student</span>
         </div>
       </div>
     </div>
