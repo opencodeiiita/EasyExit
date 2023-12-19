@@ -1,2 +1,0 @@
-when we make these we need to do changes in index.html inside public folder my changes name of title to Login-signup
-
