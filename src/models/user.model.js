@@ -18,6 +18,5 @@
     }
 }, { timestamps: true });
 
- User = model('user', userSchema);
 
 
