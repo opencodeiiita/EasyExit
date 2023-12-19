@@ -19,8 +19,8 @@ const Profile = () => {
 
         <div className="text-data">
           <span className="name"><span class="name-text">Name:</span>Shrutika</span>
-          <span className="email"><span class="name-text">Name:</span>Shrutikarathi6</span>
-          <span className="prof"><span class="name-text">Name:</span>Student</span>
+          <span className="email"><span class="name-text">Email id:</span>Shrutikarathi6</span>
+          <span className="prof"><span class="name-text">Logged in as:</span>Student</span>
         </div>
       </div>
     </div>
