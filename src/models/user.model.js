@@ -1,7 +1,4 @@
-import { model, Schema } from 'mongoose';
-
-const userSchema = new Schema({
-    name:{
+        name:{
         type: String,
         required: true,
         trim: true
@@ -21,6 +18,6 @@ const userSchema = new Schema({
     }
 }, { timestamps: true });
 
-const User = model('user', userSchema);
+ User = model('user', userSchema);
 
-export default User;
+
