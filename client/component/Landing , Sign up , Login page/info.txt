@@ -1,17 +1,2 @@
 when we make these we need to do changes in index.html inside public folder my changes name of title to Login-signup
-and we also need to change App.js where we have to change code to this
 
-import logo from './logo.svg';
-import './App.css';
-import LoginSignup from './components/LoginSignup/login';
-
-function App() {
-  return (
-    <div >
-      <LoginSignup/>
-      </div>
-    //
-  );
-}
-
-export default App

@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginSignup from './components/LoginSignup/login';
+
 
 function App() {
   return (
+    // <div >     //whenever want to run login signup page uncomment this
+    // <LoginSignup/>
+    // </div>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +24,11 @@ function App() {
         </a>
       </header>
     </div>
+    
   );
 }
 
 export default App;
+
+
+
