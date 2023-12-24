@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+ 
+
+  .logo h3 {
+    margin: 0; 
+  }
+
+  .cont-label.active {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #8968FF; /* Purple color for the underline */
+  }
+  .form-container {
+    background-color: #e6e6e6;
+    padding-top: 20px;
+  }
+  .container1{
+    display: flex;
+    background-color:#e6e6e6 ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-label{
+    color: black;
+    
+    font-size: 22px;
+    font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+  }
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .heading {
+    color: #8968FF; /* Purple color for the form heading */
+    text-align: center;
+    font-size: 28px; /* Increased font size for the heading */
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .form-label {
+    font-size: 20px;
+    color: #8968FF; /* Purple color for the form label */
+  }
+
+  .form-input {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light gray background for the input box */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #8968FF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin-left: 15vw; */
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #5e45b1;
+  }
+  .responsibility-group {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  .responsibility-option {
+    /* flex: 1;
+     */
+     margin-left: 20px;
+  }
+
+
+.submit-button {
+  display: block;
+  margin: auto;
+}
+
+  .responsibility-option input {
+    margin-right: 5px;
+  }
