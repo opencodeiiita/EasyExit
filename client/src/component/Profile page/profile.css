@@ -133,7 +133,8 @@
 }
 .name-text {
   color: #8968FF; 
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: bold;
 }
 .text-data .email {
     padding-top: 8px;
@@ -145,7 +146,7 @@
     padding-top: 15px;
   font-size: 18px;
   font-weight: 400;
-  color: #8968FF;
+  /* color: #8968FF; */
 }
 
 .profile-card .media-button {
