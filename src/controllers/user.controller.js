@@ -5,7 +5,11 @@ import {
 import { hash_password } from '../utils/password.js';
 
 export async function getUserProfile(req, res) {
-    
+    return response_200(res, 'User data', {
+        name: req.user.name,
+        email: req.user.email,
+        role: req.user.role
+    });
 }
 
 export async function updatePassword(req, res) {
