@@ -6,15 +6,27 @@ import Form from '../models/form.model.js';
 import nodemailer from 'nodemailer';
 import User from '../models/user.model.js';
 
+// Load environment variables
+require('dotenv').config();
+
+// Configure nodemailer using environment variables
 let transporter = nodemailer.createTransport({
-    // Your transporter configuration goes here
-    host: 'your-smtp-server.com',
-    port: 587, // Port for secure SMTP
-    secure: false, // true for 465, false for other ports
+    host: 'smtp.gmail.com', // Assuming you are using Gmail as the email service
+    port: 587,
+    secure: false,
     auth: {
-        user: 'your-email@example.com', // Your email address
-        pass: 'your-email-password' // Your email password
+        user: process.env.EMAIL, // Your email address from environment variable
+        pass: process.env.PASS // Your app password from environment variable
     }
+});
+
+// Verify transporter configuration
+transporter.verify(function (err, success) {
+    if (err) {
+        console.error('Error verifying email transporter:', err);
+        return;
+    }
+    console.log('Email transporter is ready to send emails');
 });
 
 export async function pendingPasses(req, res) {
@@ -43,11 +55,3 @@ export async function rejectedPasses(req, res) {
         return response_500(res, 'Error fetching rejected outpasses', error);
     }
 }
-
-transporter.verify(function (err, success) {
-    if (err) {
-        console.error('Error verifying email transporter:', err);
-    } else {
-        console.log('Email transporter is ready to send emails');
-    }
-});
